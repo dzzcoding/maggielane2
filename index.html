@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rust and Rose | Maggie Lane — Sweet Country Charm Vintage Decor in Yucaipa, CA</title>
+<meta name="description" content="Rust and Rose, owned by Maggie Lane, is a vintage decor shop in Yucaipa, CA offering hand-picked farmhouse furniture, cottage accents, and cozy country finds. Open daily 10:30 AM – 5 PM.">
+<meta name="keywords" content="Rust and Rose, Maggie Lane, vintage decor Yucaipa, farmhouse furniture, cottage decor, Yucaipa antique shop">
+<meta name="author" content="Maggie Lane">
+<link rel="canonical" href="https://maggielane.net/">
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="business.business">
+<meta property="og:title" content="Rust and Rose | Maggie Lane — Sweet Country Charm Vintage Decor">
+<meta property="og:description" content="Rust and Rose, owned by Maggie Lane, offers hand-picked vintage furniture and cottage-style finds in Yucaipa, CA.">
+<meta property="og:url" content="https://maggielane.net/">
+<meta property="og:site_name" content="Rust and Rose | Maggie Lane">
+<meta property="og:locale" content="en_US">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Rust and Rose | Maggie Lane — Sweet Country Charm Vintage Decor">
+<meta name="twitter:description" content="Hand-picked vintage furniture and cottage-style finds in Yucaipa, CA, from Maggie Lane's shop Rust and Rose.">
+
+<!-- Local Business structured data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HomeGoodsStore",
+  "name": "Rust and Rose",
+  "alternateName": "Maggie Lane",
+  "description": "Sweet Country Charm Vintage Decor — hand-picked vintage furniture and cottage-style finds, owned and curated by Maggie Lane.",
+  "image": "https://maggielane.net/og-image.jpg",
+  "url": "https://maggielane.net/",
+  "telephone": "+1-909-809-9057",
+  "email": "maggielaneshop@yahoo.com",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "35151 Yucaipa Blvd",
+    "addressLocality": "Yucaipa",
+    "addressRegion": "CA",
+    "postalCode": "92399",
+    "addressCountry": "US"
+  },
+  "openingHoursSpecification": {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+    "opens": "10:30",
+    "closes": "17:00"
+  }
+}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=Parisienne&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ivory:#FBF5EC;
+    --cream:#FFFDF8;
+    --blush:#F1D6DE;
+    --blush-deep:#E3AFC0;
+    --rose:#C98499;
+    --gold:#B08A4E;
+    --gold-deep:#8C6A38;
+    --brown:#4A362A;
+    --brown-soft:#6B5647;
+    --line:#E4CBB8;
+  }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{
+    margin:0;
+    background:var(--ivory);
+    color:var(--brown);
+    font-family:'EB Garamond', serif;
+    font-size:19px;
+    line-height:1.7;
+  }
+  h1,h2,h3{
+    font-family:'Cormorant Garamond', serif;
+    font-weight:600;
+    color:var(--brown);
+    margin:0;
+  }
+  .script{
+    font-family:'Parisienne', cursive;
+    font-weight:400;
+    color:var(--rose);
+  }
+  a{color:var(--gold-deep);}
+  .wrap{max-width:920px;margin:0 auto;padding:0 32px;}
+
+  /* Wood-grain textured strips top & bottom, echoing the card border */
+  .grain{
+    height:14px;
+    background-image:repeating-linear-gradient(90deg, var(--line) 0px, var(--line) 1px, transparent 1px, transparent 38px),
+                      repeating-linear-gradient(90deg, transparent 0px, transparent 60px, var(--line) 61px, transparent 62px);
+    background-color:var(--cream);
+    opacity:0.6;
+  }
+
+  /* NAV */
+  nav{
+    padding:22px 0;
+    text-align:center;
+  }
+  nav .navwrap{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    max-width:920px;
+    margin:0 auto;
+    padding:0 32px;
+  }
+  .brandmark{
+    font-family:'Cormorant Garamond', serif;
+    font-size:22px;
+    font-weight:600;
+    letter-spacing:0.02em;
+    color:var(--brown);
+  }
+  .navlinks{display:flex;gap:28px; flex-wrap:wrap; justify-content:flex-end;}
+  .navlinks a{
+    text-decoration:none;
+    color:var(--brown-soft);
+    font-size:17px;
+    white-space:nowrap;
+    margin-left:14px;
+    border-bottom:1px solid transparent;
+    transition:border-color 0.2s;
+  }
+  .navlinks a:hover{border-color:var(--gold);}
+
+  /* HERO */
+  .hero{
+    padding:70px 32px 90px;
+    text-align:center;
+    position:relative;
+  }
+  .frame-svg{
+    max-width:560px;
+    margin:0 auto;
+    display:block;
+  }
+  .hero-name{
+    font-size:52px;
+    letter-spacing:0.01em;
+  }
+  .hero-script{
+    font-size:38px;
+    display:block;
+    margin:6px 0 2px;
+  }
+  .hero-sub{
+    font-size:22px;
+    letter-spacing:0.14em;
+    color:var(--gold-deep);
+    text-transform:uppercase;
+    margin-top:2px;
+  }
+  .hero-tagline{
+    max-width:480px;
+    margin:28px auto 0;
+    font-size:20px;
+    color:var(--brown-soft);
+    font-style:italic;
+  }
+  .hero-ctas{
+    margin-top:36px;
+    display:flex;
+    gap:18px;
+    justify-content:center;
+    flex-wrap:wrap;
+  }
+  .btn{
+    display:inline-block;
+    padding:13px 30px;
+    border-radius:2px;
+    text-decoration:none;
+    font-family:'EB Garamond', serif;
+    font-size:18px;
+    letter-spacing:0.03em;
+    border:1px solid var(--gold);
+    transition:all 0.2s;
+  }
+  .btn-solid{
+    background:var(--gold);
+    color:var(--cream);
+  }
+  .btn-solid:hover{background:var(--gold-deep); border-color:var(--gold-deep);}
+  .btn-outline{
+    background:transparent;
+    color:var(--gold-deep);
+  }
+  .btn-outline:hover{background:var(--blush);}
+
+  /* DIVIDER */
+  .divider{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:16px;
+    margin:0 auto;
+    max-width:300px;
+    padding:0 32px;
+  }
+  .divider .line{flex:1; height:1px; background:var(--line);}
+  .divider svg{flex-shrink:0;}
+
+  /* ABOUT */
+  .about{
+    padding:80px 32px;
+  }
+  .about-grid{
+    max-width:920px;
+    margin:0 auto;
+    display:grid;
+    grid-template-columns:1fr 1.3fr;
+    gap:56px;
+    align-items:center;
+  }
+  .monogram-box{
+    aspect-ratio:1;
+    background:var(--blush);
+    border:1px solid var(--blush-deep);
+    border-radius:2px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+  }
+  .monogram-box span{
+    font-family:'Parisienne', cursive;
+    font-size:96px;
+    color:var(--rose);
+  }
+  .about h2{
+    font-size:34px;
+    margin-bottom:20px;
+  }
+  .about p{color:var(--brown-soft); margin:0 0 14px;}
+
+  /* COLLECTIONS */
+  .collections{
+    padding:80px 32px 90px;
+    background:var(--cream);
+    border-top:1px solid var(--line);
+    border-bottom:1px solid var(--line);
+  }
+  .collections-inner{max-width:920px; margin:0 auto;}
+  .section-head{text-align:center; margin-bottom:56px;}
+  .section-head h2{font-size:34px;}
+  .section-head .script{font-size:24px; display:block; margin-top:4px;}
+  .cards{
+    display:grid;
+    grid-template-columns:repeat(2, 1fr);
+    gap:28px;
+  }
+  .card{
+    background:var(--ivory);
+    border:1px solid var(--line);
+    padding:32px 28px;
+    text-align:center;
+    border-radius:2px;
+  }
+  .card svg{margin-bottom:14px;}
+  .card h3{font-size:24px; margin-bottom:8px;}
+  .card p{color:var(--brown-soft); font-size:17px; margin:0;}
+
+  /* VISIT */
+  .visit{
+    padding:90px 32px;
+  }
+  .visit-inner{
+    max-width:760px;
+    margin:0 auto;
+    background:var(--blush);
+    border:1px solid var(--blush-deep);
+    padding:56px 48px;
+    text-align:center;
+    border-radius:2px;
+    position:relative;
+  }
+  .visit h2{font-size:34px; margin-bottom:36px;}
+  .visit-details{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:32px;
+    text-align:left;
+    max-width:560px;
+    margin:0 auto;
+  }
+  .visit-item h3{
+    font-size:16px;
+    text-transform:uppercase;
+    letter-spacing:0.1em;
+    color:var(--gold-deep);
+    font-weight:600;
+    margin-bottom:8px;
+  }
+  .visit-item p{margin:0; color:var(--brown); font-size:18px;}
+  .visit-item a{color:var(--brown); text-decoration:underline; text-decoration-color:var(--gold);}
+  .visit-cta{margin-top:36px;}
+
+  /* FOOTER */
+  footer{
+    padding:44px 32px 36px;
+    text-align:center;
+  }
+  footer .script{font-size:26px;}
+  footer p{color:var(--brown-soft); font-size:16px; margin-top:6px;}
+
+  @media (max-width: 680px){
+    .navwrap{flex-direction:column; gap:10px; padding:0 24px;}
+    .navlinks{gap:18px; font-size:15px; justify-content:center;}
+    .hero-name{font-size:38px;}
+    .hero-script{font-size:28px;}
+    .hero-sub{font-size:16px; letter-spacing:0.1em;}
+    .about-grid{grid-template-columns:1fr; gap:32px;}
+    .monogram-box{max-width:220px; margin:0 auto;}
+    .cards{grid-template-columns:1fr;}
+    .visit-details{grid-template-columns:1fr;}
+    .visit-inner{padding:40px 26px;}
+  }
+</style>
+</head>
+<body>
+
+<div class="grain"></div>
+
+<nav>
+  <div class="navwrap">
+    <div class="brandmark">Maggie Lane</div>
+    <div class="navlinks">
+      <a href="#hours">Hours</a>
+      <a href="#about">About</a>
+      <a href="#collections">Collections</a>
+    </div>
+  </div>
+</nav>
+
+<section class="hero">
+  <svg class="frame-svg" viewBox="0 0 560 260" xmlns="http://www.w3.org/2000/svg">
+    <g fill="none" stroke="#B08A4E" stroke-width="1.4">
+      <path d="M40,20 C20,20 20,20 20,40 L20,220 C20,240 20,240 40,240"/>
+      <path d="M520,20 C540,20 540,20 540,40 L540,220 C540,240 540,240 520,240"/>
+      <path d="M40,20 Q120,8 280,10 Q440,8 520,20"/>
+      <path d="M40,240 Q120,252 280,250 Q440,252 520,240"/>
+      <circle cx="40" cy="20" r="4"/>
+      <circle cx="520" cy="20" r="4"/>
+      <circle cx="40" cy="240" r="4"/>
+      <circle cx="520" cy="240" r="4"/>
+    </g>
+    <foreignObject x="55" y="45" width="450" height="180">
+      <div xmlns="http://www.w3.org/1999/xhtml" style="text-align:center; font-family:'Cormorant Garamond', serif;">
+        <div style="font-size:44px; font-weight:600; color:#4A362A;">Maggie Lane</div>
+        <div style="font-family:'Parisienne', cursive; font-size:32px; color:#C98499; margin-top:2px;">Sweet Country Charm</div>
+        <div style="font-size:19px; letter-spacing:0.16em; text-transform:uppercase; color:#8C6A38; margin-top:6px;">Vintage Decor</div>
+      </div>
+    </foreignObject>
+  </svg>
+
+  <p class="hero-tagline">Hand-picked vintage furniture and cottage-style finds for a home with a little history in every corner.</p>
+
+  <div class="hero-ctas">
+    <a class="btn btn-solid" href="#hours">Hours &amp; location</a>
+    <a class="btn btn-outline" href="mailto:maggielaneshop@yahoo.com">Say hello</a>
+  </div>
+</section>
+
+<section class="visit" id="hours">
+  <div class="visit-inner">
+    <h2>Hours &amp; location</h2>
+    <div class="visit-details">
+      <div class="visit-item">
+        <h3>Address</h3>
+        <p><a href="https://www.google.com/maps/search/?api=1&query=35151+Yucaipa+Blvd+Yucaipa+CA+92399" target="_blank" rel="noopener">35151 Yucaipa Blvd<br>Yucaipa, CA 92399</a></p>
+      </div>
+      <div class="visit-item">
+        <h3>Hours</h3>
+        <p>Monday – Sunday<br>10:30 AM – 5 PM</p>
+      </div>
+      <div class="visit-item">
+        <h3>Email</h3>
+        <p><a href="mailto:maggielaneshop@yahoo.com">maggielaneshop@yahoo.com</a></p>
+      </div>
+      <div class="visit-item">
+        <h3>Phone</h3>
+        <p><a href="tel:9098099057">909 809 9057</a></p>
+      </div>
+    </div>
+    <div class="visit-cta">
+      <a class="btn btn-solid" href="https://www.google.com/maps/search/?api=1&query=35151+Yucaipa+Blvd+Yucaipa+CA+92399" target="_blank" rel="noopener">Get directions</a>
+    </div>
+  </div>
+</section>
+
+<div class="divider">
+  <span class="line"></span>
+  <svg width="22" height="14" viewBox="0 0 22 14"><path d="M1,7 C6,1 6,13 11,7 C16,1 16,13 21,7" fill="none" stroke="#B08A4E" stroke-width="1.2"/></svg>
+  <span class="line"></span>
+</div>
+
+<section class="about" id="about">
+  <div class="about-grid">
+    <div class="monogram-box"><span>ML</span></div>
+    <div>
+      <h2>A little history, freshly dusted</h2>
+      <p>Rust and Rose, owned by Maggie Lane, is a shop where every piece has lived a life before finding its way here — a farmhouse dresser, a chippy-painted mirror, a stack of linens edged in lace. Maggie sources them one estate sale and one back-road antique fair at a time.</p>
+      <p>The shop is small, the welcome is warm, and there's always a fresh find waiting near the door. If country charm and a well-worn story are your kind of decorating, you'll feel right at home here.</p>
+    </div>
+  </div>
+</section>
+
+<section class="collections" id="collections">
+  <div class="collections-inner">
+    <div class="section-head">
+      <h2>What you'll find inside</h2>
+      <span class="script">a little bit of everything charming</span>
+    </div>
+    <div class="cards">
+      <div class="card">
+        <svg width="36" height="36" viewBox="0 0 36 36" fill="none" stroke="#B08A4E" stroke-width="1.3"><path d="M9,10 L27,10 L25,32 L11,32 Z"/><path d="M9,10 L27,10 L26,4 L10,4 Z"/><line x1="14" y1="14" x2="12" y2="30"/><line x1="22" y1="14" x2="24" y2="30"/></svg>
+        <h3>Farmhouse furniture</h3>
+        <p>Dressers, side tables, and painted chairs with plenty of character.</p>
+      </div>
+      <div class="card">
+        <svg width="36" height="36" viewBox="0 0 36 36" fill="none" stroke="#B08A4E" stroke-width="1.3"><rect x="10" y="6" width="16" height="20" rx="2"/><line x1="18" y1="26" x2="18" y2="32"/><line x1="12" y1="32" x2="24" y2="32"/></svg>
+        <h3>Cottage accents</h3>
+        <p>Framed mirrors, ironstone, and little touches for every shelf.</p>
+      </div>
+      <div class="card">
+        <svg width="36" height="36" viewBox="0 0 36 36" fill="none" stroke="#B08A4E" stroke-width="1.3"><circle cx="18" cy="18" r="12"/><path d="M18,6 C22,10 22,26 18,30 M18,6 C14,10 14,26 18,30 M6,18 L30,18"/></svg>
+        <h3>Seasonal &amp; holiday</h3>
+        <p>Wreaths, garlands, and decor that rotates with the calendar.</p>
+      </div>
+      <div class="card">
+        <svg width="36" height="36" viewBox="0 0 36 36" fill="none" stroke="#B08A4E" stroke-width="1.3"><rect x="8" y="14" width="20" height="16" rx="1"/><path d="M8,14 L18,22 L28,14"/><line x1="18" y1="6" x2="18" y2="14"/></svg>
+        <h3>Gifts &amp; keepsakes</h3>
+        <p>Small, thoughtful finds for someone who loves this style too.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <span class="script">Rust and Rose</span>
+  <p>Maggie Lane · Sweet Country Charm Vintage Decor · Yucaipa, California</p>
+</footer>
+
+<div class="grain"></div>
+
+</body>
+</html>
